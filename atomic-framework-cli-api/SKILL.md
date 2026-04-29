@@ -97,6 +97,8 @@ CLI routes live in `routes/cli.php`:
 $app->route('GET /my-command', 'App\\CLI\\MyHandler->run');
 ```
 
+See [atomic-framework-cli-entrypoint/SKILL.md](atomic-framework-cli-entrypoint/SKILL.md) for the recommended project-level CLI stub (`atomic`) with shebang and bootstrap example.
+
 ## CLI Command Handler Pattern
 
 ```php
